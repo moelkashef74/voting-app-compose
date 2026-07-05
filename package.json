@@ -1,0 +1,13 @@
+{
+  "name": "voting-app",
+  "version": "1.0.0",
+  "description": "Simple Voting App",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}

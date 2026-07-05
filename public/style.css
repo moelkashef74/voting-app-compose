@@ -1,0 +1,21 @@
+body{
+
+    text-align:center;
+
+    font-family:Arial;
+
+    margin-top:100px;
+
+}
+
+button{
+
+    padding:20px;
+
+    margin:20px;
+
+    font-size:25px;
+
+    cursor:pointer;
+
+}

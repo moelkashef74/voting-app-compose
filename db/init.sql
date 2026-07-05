@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS votes(
+
+    id SERIAL PRIMARY KEY,
+
+    option VARCHAR(20) NOT NULL,
+
+    created_at TIMESTAMP DEFAULT NOW()
+
+);
