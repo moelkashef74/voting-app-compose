@@ -15,7 +15,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git url: "${SOURCE_REPO}", branch: 'main'
+                git url: "${SOURCE_REPO}", branch: 'master'
             }
         }
 
