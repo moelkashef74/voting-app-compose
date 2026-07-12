@@ -7,7 +7,7 @@ pipeline {
         ECR_REGISTRY = 'public.ecr.aws/n5k7g9w8'
         DOCKER_IMAGE = 'voting-app'
         DOCKER_TAG = "v1.${BUILD_NUMBER}"
-        K8S_DEPLOYMENT_FILE = 'voting-app.yaml'
+        K8S_DEPLOYMENT_FILE = 'k8s-voting-app/voting-app.yaml'
         SOURCE_REPO = 'https://github.com/moelkashef74/voting-app-compose.git'
     }
 
